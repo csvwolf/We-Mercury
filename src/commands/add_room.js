@@ -1,5 +1,5 @@
 const { Room } = require('wechaty')
-const rules = require('../rules/add_room')
+const rules = require(`${process.cwd()}/rules/add_room`)
 
 module.exports = async function RoomAdd(content, sender, room, bot) {
   try {

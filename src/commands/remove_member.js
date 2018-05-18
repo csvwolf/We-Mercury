@@ -1,5 +1,5 @@
 const { Room, Contact } = require('wechaty')
-const config = require('../config.json')
+const config = require(`${process.cwd()}/config.json`)
 
 module.exports = async function RemoveMember(content, sender, room, bot) {
   try {

@@ -1,16 +1,15 @@
 {
-  "name": "wechat-bot",
+  "name": "we-mercury",
   "version": "1.0.0",
-  "description": "",
+  "description": "Another WeChat Bot.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "csvwolf@qq.com",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
-    "terminal-image": "^0.1.1",
+    "qrcode-terminal": "^0.12.0",
     "wechaty": "^0.14.4"
   }
 }
